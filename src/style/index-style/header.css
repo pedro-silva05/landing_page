@@ -1,0 +1,58 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 8%;
+    position: fixed;
+    z-index: 5;
+}
+
+header.scrolled{
+    transition: 1s;
+    background-color: chocolate;
+}
+
+.img-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+}
+
+#nav-list{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.itens a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.itens.active a{
+    border-bottom: 3px solid rgb(280, 160, 11);
+}
+
+#btn{
+    gap: 8px;
+    display: flex;
+}
+
+.btn-conta{
+    background-color: rgb(280, 160, 11) ;
+    width: 100px;
+    height: 50px;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#menu-mobile{
+    display: none;
+}
+
+#mobile-list{
+    display: none;
+}

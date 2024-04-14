@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../style/index-style/body.css">
+    <link rel="stylesheet" href="../style/index-style/header.css">
+    <link rel="stylesheet" href="../style/index-style/home.css">
+    <link rel="stylesheet" href="../style/index-style/produtos.css">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header id="header">
+        <div id="logo">
+            <img class="img-logo" src="../img/perfilbranco.jpg" alt="logo">
+        </div>
+        <nav>
+            <ul id="nav-list">
+                <li class="itens"><a href="#home">início</a></li>
+                <li class="itens"><a href="#produtos">produtos</a></li>
+                <li class="itens"><a href="#">avaliações</a></li>
+                <li class="itens"><a href="#">sobre</a></li>
+            </ul>
+        </nav>
+        <div id="btn">
+            <div>
+                <a href="#"><button class="btn-conta">Entrar</button></a>
+            </div>
+            <div>
+                <a href="../pages/cadastrar.php"><button class="btn-conta">Criar Conta</button></a>
+            </div>
+        </div>
+        <div id="menu-mobile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>
+        </div>
+        <div id="mobile-list">
+            <ul>
+                <li class="itens"><a href="#">início</a></li>
+                <li class="itens"><a href="#">produtos</a></li>
+                <li class="itens"><a href="#">avaliações</a></li>
+                <li class="itens"><a href="#">sobre</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <section id="home">
+        <div id="conteudo">
+            <h2>Bem vindo a Empório Aliança, a padaria que vai até <span>você!</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt elit in ante fringilla luctus at eu elit. Fusce placerat, leo et cursus malesuada, lacus metus tincidunt nisi, at lobortis mauris risus id est. Vestibulum iaculis leo vitae posuere imperdiet. Vivamus suscipit justo quam, porttitor accumsan ex molestie quis. Nunc nec dolor aliquam, mollis ante sit amet, ultrices nulla. Nam metus justo, cursus non auctor eu, cursus vel nulla. Aliquam eleifend ligula lorem. Maecenas iaculis urna porta orci tempor volutpat. In dictum finibus odio at placerat. Praesent imperdiet elit at sapien venenatis dapibus. Integer egestas viverra efficitur. Mauris in sem felis.</p>
+            <a href="#" class="btn">Ver Loja</a>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="titulos-produtos">
+            <h2>Produtos</h2>
+            <h3>Um pouco da nossa padaria:</h3>
+        </div>
+        <div class="menu-produtos">
+            <div class="itens-produtos">
+                <img class="img-produtos" src="../img/pao_de_queijo.png" alt="">
+                <div class="center">
+                    <h3>Pão de Queijo</h3>
+                    <p>3 Unidades R$1,00 ou</p>
+                    <p>Unidade R$0,35</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(+300)</span>
+                </div>
+                <a href="#" class="btn">Comprar agora</a>
+            </div>
+            <div class="itens-produtos">
+                <img class="img-produtos" src="../img/pao_de_sal.jpeg" alt="">
+                <div class="center">
+                    <h3>Pão de Sal</h3>
+                    <p>Undidade R$0,50</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(+250)</span>
+                </div>
+                <a href="#" class="btn">Comprar agora</a>
+            </div>
+            <div class="itens-produtos">
+                <img class="img-produtos" src="../img/181675-1600-auto.webp" alt="">
+                <div class="center">
+                    <h3>Pão de Milho</h3>
+                    <p>Undidade R$0,55</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(+200)</span>
+                </div>
+                <a href="#" class="btn">Comprar agora</a>
+            </div>
+            <div class="itens-produtos">
+                <img class="img-produtos" src="../img/9b92d4b17bba63dc3b02daa11d039cf8b48fe772dad00e3c58facf70a15bcd42_full.jpg" alt="">
+                <div class="center">
+                    <h3>Pão de Leite</h3>
+                    <p>Undidade R$0,55</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(+300)</span>
+                </div>
+                <a href="#" class="btn">Comprar agora</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="../javascript/script.js"> </script>
+</body>
+</html>

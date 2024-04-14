@@ -1,0 +1,35 @@
+#home{
+    background-image: url(../../img/vecteezy_generativo-ai-maos-do-padeiro-dentro-restaurante-ou-casa_25517169.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 150px 8%;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+}
+
+#conteudo{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+#conteudo p{
+    padding: 20px 0px 40px 0px;
+    width: 50%;
+}
+
+span{
+    color: rgb(280, 160, 11);
+}
