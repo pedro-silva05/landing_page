@@ -9,11 +9,6 @@ window.addEventListener('scroll', function() {
 
 $(document).ready(function(){
 
-    $('#signUp').on('click', function(){
-        $('#criar-conta').toggleClass('ativar');
-    });
-
-
     const sections = $('section');
     const navItens = $('.itens');
 
