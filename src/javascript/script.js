@@ -39,4 +39,11 @@ $(document).ready(function(){
         navItens.removeClass('active');
         $(navItens[activeSectionIndex]).addClass('active');
     });
+
+    ScrollReveal().reveal('.menu-produtos', {
+        origin: 'rigth',
+        duration: 2000,
+        distance: '10%',
+        delay: 200
+    })  
 });

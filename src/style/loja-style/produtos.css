@@ -1,0 +1,34 @@
+#produtos{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff9ea;
+    padding: 0px 8%;
+    height: auto;
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.itens-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #d1d1d1;
+    padding: 15px 5px;
+    width: 250px;
+    height: 400px;
+}
+
+.p{
+    padding-top: 10px;
+    font-size: 20px;
+}
