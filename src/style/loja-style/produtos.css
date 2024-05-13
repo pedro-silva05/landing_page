@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     padding-top: 10px;
-    gap: 20px;
+    gap: 10px;
 }
 
 .itens-produto{
@@ -21,10 +21,10 @@
     text-align: center;
     gap: 8px;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid #d1d1d1;
     padding: 15px 5px;
-    width: 250px;
+    width: 240px;
     height: 400px;
 }
 

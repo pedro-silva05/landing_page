@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff9ea;
+    padding: 126px 8% 0px 8%;
+}
+
+.img{
+    width: 90%;
+    height: 90%;
+    transition: 0.3s;
+}
+
+.img-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+.info-produto{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 50%;
+    padding: 2%;
+    border: 1px solid #000;
+    border-radius: 5px
+}
+
+.btn{
+    width: 100%;
+    height: 3em;
+    font-weight: 600;
+    color: #fff;
+    background-color: limegreen;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: forestgreen;
+}
+
+.qtd{
+    margin-bottom: 20px;
+}
+
+#qtd{
+    width: 40px;
+    padding: 0px 5px;
+    text-align: center;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.qtd-value{
+    border: none;
+    background-color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+}

@@ -9,6 +9,7 @@
 
 body{
     overflow-x: hidden;
+    display: none;
 }
 
 .btn{

@@ -29,7 +29,7 @@ if(isset($_SESSION["msg"]) === true){
                 <div style="color: red; background-color: #fff;"><?php echo $msg; ?></div>
             </div>
             <div>
-                <input type="submit" name="add" value="Cadastrar" class="btn">
+                <input type="submit" name="add" value="Entrar" class="btn">
             </div>
             <a href="../pages/cadastro.php">Não tem uma conta? <span class="span">Criar conta</span></a>
         </form>

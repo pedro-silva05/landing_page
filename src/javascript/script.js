@@ -45,5 +45,12 @@ $(document).ready(function(){
         duration: 2000,
         distance: '10%',
         delay: 200
-    })  
+    })
+
+    
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    document.body.style.display = "block";
 });
