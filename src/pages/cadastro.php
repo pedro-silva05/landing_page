@@ -13,6 +13,7 @@ if(isset($_SESSION["msg"]) === true){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/perfilmarrom.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../style/entrar-cadastrar-style/body.css">
     <title>Cadastrar</title>
 </head>
